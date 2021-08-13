@@ -9,5 +9,6 @@ my $i = 0;
 while ($i < 1000000) {
     print STDOUT $i, "\n";
     $i++;
+    # skriv en kommentar
     usleep(1000);
 }
